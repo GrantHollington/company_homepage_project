@@ -42,8 +42,8 @@ h2, h3, h4, p {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
     margin: 0 10%;
+    justify-content: center;
 }
 
 a {
@@ -51,6 +51,8 @@ a {
     text-decoration: none;
     color: black;
     font-size: 1.3rem;
+    justify-content: space-between;
+    margin: 20px;
 }
 
 ul {
@@ -72,6 +74,7 @@ li {
     display: flex;
     height: 300px;
     background-image: url(https://media.istockphoto.com/photos/beekeeper-on-apiary-beekeeper-is-working-with-bees-and-beehives-on-picture-id1336148530?b=1&k=20&m=1336148530&s=170667a&w=0&h=hlyHd_z4Dz40ut1tjPVunUia6qxLzxqvCjwdgkHV5Fg=);
+    background-size: cover;
     padding-top: 35px;
     background-repeat: no-repeat;
 }
